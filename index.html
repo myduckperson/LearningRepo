@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Hello, Old World. Goodbye, the New one</h1>
+        <div class="theBoxToPlayWith">
+            <form>
+                <div>
+                    <label for="theNum">Кількість ліній:</label>
+                    <input id="theNum" type="number" max="1000" min="0" value="20">                    
+                </div>
+                <div>
+                    <label for="theCol">Колір:</label>
+                    <input id="theCol" type="text" maxlength="50" value="red">                    
+                </div>
+                <button type="button" id="m">reset</button>
+            </form>
+            <canvas id="moment" height="300" width="800"></canvas>
+        </div>
+    </header>
+
+    <script src="front-end.js"></script>
+</body>
+</html>

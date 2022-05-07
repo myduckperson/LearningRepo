@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.theBoxToPlayWith{
+    height: 400px;
+    width: auto;
+    margin: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#moment{
+    background-color: black;
+}
